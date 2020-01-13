@@ -1,0 +1,45 @@
+html {
+    background-color: gray;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid black 1px;
+    width: 500px;
+}
+
+#em {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: green;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: red;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: inherit;
+}
+
+#mes {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#im {
+    display: flex;
+}
+
+#om {
+    margin-left: 80px;
+}

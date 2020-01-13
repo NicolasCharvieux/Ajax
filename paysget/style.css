@@ -1,0 +1,40 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1500px;
+    height: 500px;
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+}
+
+p {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#cont1 {
+    background-color: cadetblue;
+    width: 500px;
+    height: 500px;
+}
+
+#cont2 {
+    background-color: pink;
+    width: 500px;
+    height: 500px;
+}
+
+#cont3 {
+    background-color: burlywood;
+    width: 500px;
+    height: 500px;
+}

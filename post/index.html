@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <h1>Formulaire</h1>
+    <img id="pn" src="bonnet.png" width="200" height="200">
+    <section id="sec">
+        <div>
+            <P class="invisible" id="err">Attention ! Ce formulaire contient des erreurs ou est incomplet !</P>
+        </div>
+        <form onsubmit="return false" id="formulaire" method="POST" class="visible">
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="em" placeholder="Votre Email"><br>
+
+                <label for="text">Message :</label>
+                <div id="im">
+                    <textarea name="message" id="mes" cols="30" rows="10" placeholder="Votre Message"></textarea>
+                    <img id="om" src="sapin.png" width="150" height="200">
+                </div><br>
+                <button type="submit" onclick="but()">Envoyer</button>
+            </div>
+        </form>
+        <div></div>
+    </section>
+    <section id="sec2">
+        <div>
+            <p class="invisible" id="ok">Merci pour votre message, nous vous répondrons sous 24h.</p>
+        </div>
+    </section>
+
+    <script src="post.js"></script>
+</body>
+
+</html>
